@@ -1,0 +1,179 @@
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ }
+
+ .as{
+ 	background-color: #D3D3D3;
+ }
+
+ .title,.des
+ {
+ 	background-color: #FFFFFF;
+ }
+
+.title{
+	
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+
+
+
+body{
+	margin:0;
+	padding:0;
+	font-family:Quicksand;
+	}
+
+.container
+{
+	margin-left:595px; 
+}
+
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: #008080;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: grey;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+	
+nav {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100px;
+	padding:10px 100px;
+	box-sizing:border-box;
+	transition: .3s;
+}
+
+nav.black{
+	background: rgba(0,0,0,0.8);
+	height: 100px;
+	padding:10px 100px;
+}
+
+nav.logo{
+	padding:10px 60px;
+	height:40px;
+	float:left;
+	font-size:34px
+	transition: .3s;
+	
+	}
+	
+nav.black.logo{
+	class:#fff;
+}
+
+nav ul{
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:0;
+	display:flex;
+}
+.logo
+{
+font-weight: bolder;	
+}
+
+
+
+nav ul li{
+	list-style:none;
+}
+
+nav ul li a{
+	line-height: 80px;
+	color:#151515;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform:uppercase;
+	transition: .3s;
+}
+
+
+nav.black uli a{
+	color: #fff;
+}
+
+nav ul li a:focus{
+	outline:none;
+}
+
+nav ul li a:focus{
+	background:#008080;
+	color: #fff;
+	border-radius:6px;
+}
+
+section.sec1{
+	width:100%;
+	height: 100vh;
+	background:url("phil.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+section.sec2{
+	align:center;
+	
+}
